@@ -1,7 +1,9 @@
 # SOLITA DEV ACADEMY: Names app #
-    ## Copyright (C) 2021 Antti Manninen ##
+## Copyright (C) 2021 Antti Manninen ##
 
-### Tools used
+Names app is part of pre-task for 2021 Solita Dev Academy. This web app presents list of names and their amount in the company. Data is fetched directly from names.json data source. 
+
+### Tools used ###
 * __Go__ for Web API and data handling
 * __React__ for UI structure and functionality
 * __React Bootstrap__ for UI styling
