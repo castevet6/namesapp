@@ -9,6 +9,7 @@
 * __Heroku__ for deployment
 
 ### Folder structure ###
+```
 ├── bin                 := folder Go app binaries
 ├── cmd               
 │   └── namesapp        := Go names app
@@ -20,4 +21,4 @@
         ├── components  := React components
         ├── services    := Services to handle names data in front-end
         └── util        := Helper functions
-
+```
