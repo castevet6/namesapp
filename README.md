@@ -25,15 +25,15 @@
 ```
 
 ### Setting up the app in Linux environment
-* You should have following installed:
-..* __Go__ binaries (I used version 1.13)
-..* __make__ binaries (not mandatory)
-..* __npm__ package manager
-* Clone the repository: `git clone https://github.com/castevet6/namesapp.git`
-* install React dependencies: `cd ui-client && npm install'
-* build from app root folder: `make`
-* start the app: `make run`
-..* alternatively: ./bin/namesapp
-..* alternatively: ./go run ./cmd/namesapp
-* start the binaries with flag -devmode to enable CORS (I used this when running React locally)
-..* also `make rundev` starts the app with -devmode set
+1. You should have following installed:
+    * __Go__ binaries (I used version 1.13)
+    * __make__ binaries (not mandatory)
+    * __npm__ package manager
+2. Clone the repository: `git clone https://github.com/castevet6/namesapp.git`
+3. install React dependencies: `cd ui-client && npm install'
+4. build from app root folder: `make`
+5. start the app: `make run`
+    * alternatively: ./bin/namesapp
+    * alternatively: ./go run ./cmd/namesapp
+6. start the binaries with flag -devmode to enable CORS (I used this when running React locally)
+    * also `make rundev` starts the app with -devmode set
