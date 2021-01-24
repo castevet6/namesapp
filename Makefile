@@ -10,7 +10,7 @@ build:
 buildui:
 	./buildui.sh
 
-run: build
+run:
 	./bin/${APP}
 
 rundev:
@@ -18,4 +18,4 @@ rundev:
 
 clean:
 	rm -rf ./bin/*
-	rm -rf ./ui-client/build/*
+	rm -rf ./ui/*
