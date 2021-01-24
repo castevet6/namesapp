@@ -37,13 +37,12 @@ func (h spaHandler) ServeHTTP (w http.ResponseWriter, r *http.Request) {
     http.FileServer(http.Dir(h.staticPath)).ServeHTTP(w, r)
 }
 
+// helper function which sets the routing with gorilla/mux
 func (app *application) routes() *mux.Router {
     router := mux.NewRouter()
     router.HandleFunc("/api/v1/names", app.returnAllNames).Methods("GET")
     router.HandleFunc("/api/v1/names/{name}", app.returnByName).Methods("GET")
 
-    //buildHandler := http.FileServer(http.Dir("ui-client/build"))
-    //router.Handle("/", buildHandler)
     return router
 }
 

@@ -44,6 +44,7 @@ func main() {
         names:      jsonreader.New(datasource),  
     }
 
+    // set up routing and instance fro SPA handler
     router := app.routes()
     spa := spaHandler{ staticPath: "ui", indexPath: "index.html" }
     router.PathPrefix("/").Handler(spa)
