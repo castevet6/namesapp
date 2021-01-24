@@ -3,7 +3,7 @@
 
 Names app is part of pre-task for 2021 Solita Dev Academy. This web app presents list of names and their amount in the company. Data is fetched directly from names.json data source. 
 
-The names up is running in [Heroku instance](castevet6-namesapp.herokuapp.com)
+The names up is running in [Heroku instance](https://castevet6-namesapp.herokuapp.com)
 
 ### Tools used ###
 * __Go__ for Web API and data handling
