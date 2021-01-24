@@ -45,7 +45,7 @@ func main() {
     }
 
     router := app.routes()
-    spa := spaHandler{ staticPath: "ui-client/build", indexPath: "index.html" }
+    spa := spaHandler{ staticPath: "ui", indexPath: "index.html" }
     router.PathPrefix("/").Handler(spa)
 
     // start the server

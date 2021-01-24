@@ -42,8 +42,8 @@ func (app *application) routes() *mux.Router {
     router.HandleFunc("/api/v1/names", app.returnAllNames).Methods("GET")
     router.HandleFunc("/api/v1/names/{name}", app.returnByName).Methods("GET")
 
-    buildHandler := http.FileServer(http.Dir("ui-client/build"))
-    router.Handle("/", buildHandler)
+    //buildHandler := http.FileServer(http.Dir("ui-client/build"))
+    //router.Handle("/", buildHandler)
     return router
 }
 
