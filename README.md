@@ -30,7 +30,7 @@ The names up is running in [Heroku instance](https://castevet6-namesapp.herokuap
 
 ### Setting up the app in Linux environment
 1. You should have following installed:
-    * __Go__ binaries (I used version 1.13)
+    * __Go__ binaries (I used version 1.14)
     * __make__ binaries (not mandatory)
     * __npm__ package manager
 2. Clone the repository: `git clone https://github.com/castevet6/namesapp.git`
